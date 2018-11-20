@@ -1,0 +1,29 @@
+{
+  "name": "keyvaultfunc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonagren/keyvaultfunc.git"
+  },
+  "author": "Simon Ågren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonagren/keyvaultfunc/issues"
+  },
+  "homepage": "https://github.com/simonagren/keyvaultfunc#readme",
+  "dependencies": {
+    "@pnp/common": "^1.2.6",
+    "@pnp/logging": "^1.2.6",
+    "@pnp/nodejs": "^1.2.6",
+    "@pnp/odata": "^1.2.6",
+    "@pnp/sp": "^1.2.6",
+    "@pnp/graph": "^1.2.6",
+    "azure-keyvault": "^3.0.4",
+    "ms-rest-azure": "^2.5.9"
+  }
+}
